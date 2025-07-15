@@ -1,0 +1,133 @@
+:root {
+  --barn-red: #780000ff;
+  --fire-brick: #c1121fff;
+  --papaya-whip: #fdf0d5;
+  --prussian-blue: #003049ff;
+  --air-superiority-blue: #669bbcff;
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: var(--papaya-whip);
+}
+
+.container {
+  height: 75vh;
+  background-image: url("images/Buddha_Smriti_Park.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 0;
+  color: var(--papaya-whip);
+  font-size: 2rem;
+  background-color: var(--air-superiority-blue);
+  padding: 4px 16px;
+  border-radius: 8px;
+}
+
+.sub-title {
+  margin: 0px 10px;
+  font-size: 1rem;
+  color: var(--papaya-whip);
+  background-color: var(--prussian-blue);
+  padding: 5px 10px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.hero {
+  padding: 20px 10px;
+  display: flex;
+  border-radius: 50px;
+  justify-content: space-around;
+  column-gap: 10px;
+}
+
+.activities img {
+  height: 80px;
+  width: 80px;
+  border-radius: 40px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+.activities {
+  min-height: 230px;
+  max-width: 200px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 10px;
+  font-size: 0.8rem;
+  color: var(--prussian-blue);
+  border-radius: 20px;
+  background-color: var(--papaya-whip);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer {
+  font-size: 0.9rem;
+  width: 420px;
+  height: 20vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 2px solid var(--prussian-blue);
+  margin: 10px auto;
+}
+
+.footer:hover, .activities:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.footer img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  border: 2px solid var(--prussian-blue);
+}
+
+.footer div {
+  width: 250px;
+  color: var(--prussian-blue);
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fire-brick);
+}
+
+a:hover{
+    border: 1px solid var(--prussian-blue);
+    border-radius: 6px;
+    padding: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
